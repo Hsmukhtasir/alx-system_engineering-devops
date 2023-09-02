@@ -1,2 +1,2 @@
 #!/bin/bash
- if [$user:"guillaume"]then chown hello betty
+chown -R --from=guillaume betty hello
