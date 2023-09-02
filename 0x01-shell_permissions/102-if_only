@@ -1,2 +1,2 @@
 #!/bin/bash
-chown if [user:guillaume] hello betty
+ if [$user:"guillaume"]then chown hello betty
